@@ -3,10 +3,82 @@
 <head>
     <title>Quiz</title>
     <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #eaf6ff, #f7fbff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 70%;
+            max-width: 900px;
+            background: #ffffff;
+            padding: 40px 50px;
+            border-radius: 20px;
+            box-shadow: 0 22px 45px rgba(0, 0, 0, 0.15);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 35px;
+            color: #0f172a;
+            font-size: 2.2rem;
+        }
+
+        .question {
+            background: #f1f5f9;
+            padding: 22px;
+            border-radius: 14px;
+            margin-bottom: 25px;
+        }
+
+        .question p {
+            margin-bottom: 14px;
+            font-size: 1.05rem;
+            color: #0f172a;
+        }
+
+        input[type="radio"] {
+            accent-color: #0ea5e9;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+
+        .btn {
+            display: block;
+            margin: 40px auto 0;
+            padding: 14px 44px;
+            background: linear-gradient(135deg, #0ea5e9, #22c55e);
+            color: white;
+            border: none;
+            border-radius: 40px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 92%;
+                padding: 30px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h2>Quiz Questions</h2>
+        <h2>Quiz Questions 📝</h2>
 
         <form action="/submit" method="post">
             {% for q in questions %}
@@ -20,7 +92,7 @@
                 </div>
             {% endfor %}
 
-            <button type="submit" class="btn">Submit Quiz</button>
+            <button type="submit" class="btn">Submit Quiz 🚀</button>
         </form>
     </div>
 </body>
