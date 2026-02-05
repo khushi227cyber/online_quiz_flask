@@ -2,3 +2,21 @@ id,question,option1,option2,option3,option4,answer
 1,What is Python?,Snake,Programming Language,Game,Car,Programming Language
 2,Flask is a ?,Framework,Database,Language,Server,Framework
 3,HTML is used for?,Styling,Logic,Structure,Database,Structure
+4,What does CSS stand for?,Computer Style Sheets,Cascading Style Sheets,Creative Style System,Colorful Style Sheets,Cascading Style Sheets
+5,Which language is used for web development?,Python,Java,C,JavaScript,JavaScript
+6,What is Java?,A browser,A database,A programming language,An operating system,A programming language
+7,Which of these is a database?,HTML,CSS,MySQL,Python,MySQL
+8,What does CPU stand for?,Central Processing Unit,Computer Power Unit,Central Program Unit,Control Processing Unit,Central Processing Unit
+9,Which symbol is used for comments in Python?,//,#,/* */,--,# 
+10,What is Git used for?,Designing,Version Control,Testing,Hosting,Version Control
+11,Which tag is used for the largest heading in HTML?,<h6>,<heading>,<h1>,<head>,<h1>
+12,Python is a ?,Low-level language,Markup language,High-level language,Machine language,High-level language
+13,Which company developed Python?,Microsoft,Google,Apple,Python Software Foundation,Python Software Foundation
+14,Which keyword is used to define a function in Python?,func,define,def,function,def
+15,What is the extension of a Python file?,.pt,.pyt,.py,.python,.py
+16,Which loop is used to iterate over a sequence in Python?,while,do-while,for,switch,for
+17,What does IDE stand for?,Integrated Development Environment,Internal Development Engine,Interactive Design Editor,Integrated Design Environment,Integrated Development Environment
+18,Which operator is used for exponentiation in Python?,^,**,%,//,**
+19,What is used to store multiple values in a single variable in Python?,Integer,String,List,Float,List
+20,Which keyword is used to create a class in Python?,object,define,class,struct,class
+

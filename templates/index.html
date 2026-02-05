@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Online Quiz</title>
     <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #eaf6ff, #f7fbff);
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 55px 75px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 22px 45px rgba(0, 0, 0, 0.15);
+            animation: floatIn 0.9s ease;
+        }
+
+        h1 {
+            margin-bottom: 28px;
+            font-size: 2.5rem;
+            color: #0f172a;
+            letter-spacing: 0.5px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 42px;
+            font-size: 1.1rem;
+            color: white;
+            text-decoration: none;
+            border-radius: 40px;
+            background: linear-gradient(135deg, #0ea5e9, #22c55e);
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        @keyframes floatIn {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Online Quiz</h1>
+        <h1>Welcome to the Online Quiz 🧠</h1>
         <a href="/quiz" class="btn">Start Quiz</a>
     </div>
 </body>
